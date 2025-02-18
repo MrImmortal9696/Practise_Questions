@@ -5,7 +5,7 @@ if num == 0:
     print("0")
 else:
     while(num > 0):
-        result = s[num%10] + result
+        result =  result+s[num%10]
         num= num//10
     print(type(result))
     print(result)
